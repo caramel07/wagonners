@@ -1,0 +1,2 @@
+module WagonnersHelper
+end
