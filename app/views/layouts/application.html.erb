@@ -11,6 +11,17 @@
   </head>
 
   <body>
-    <%= yield %>
+
+  <%= render "shared/navbar" %>
+
+    <div class="content-wapper">
+      <%= yield %>
+    </div>
+
+  <footer>
+      <%= render "shared/footer" %>
+  </footer>
+
+
   </body>
 </html>
